@@ -189,3 +189,6 @@ https://github.com/g4klx/MMDVM/tree/d6c1bea80ae1fd150111bb7a692bb5320f3beed0
 解决：执行 clean   
 sudo make -f Makefile.CMSIS clean   
 sudo make -f Makefile.CMSIS   
+
+编译结果：
+http://mmdvm.io/files/STM32DVM_F105/
