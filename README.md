@@ -190,5 +190,25 @@ https://github.com/g4klx/MMDVM/tree/d6c1bea80ae1fd150111bb7a692bb5320f3beed0
 sudo make -f Makefile.CMSIS clean   
 sudo make -f Makefile.CMSIS   
 
-编译结果：
-http://mmdvm.io/files/STM32DVM_F105/
+编译结果：  
+http://mmdvm.io/files/STM32DVM_F105/  
+
+## Flash use USB or GPIO 
+Enter flash mode  
+1）Use USB mode  
+1.1 rpi-rw #make system writeable  
+1.2 sudo mv /etc/mmdvmhost /etc/mmdvmhost.save #make service down  
+  
+1.3 Disconnect STM32-DVM from the RPi host, GPIO and USB all disconnect,  
+1.4 Insert JP jumper, short BOOT and VCC near P25 LED,  
+1.5 Connect STM32-DVM to the RPi host use USB wire,  
+1.6 Endter flash mode. PWR, ACT and DMR should be lit solid, NOT flashing(Very important,if not disconnect USB and try again) .  
+1.7 Flash use USB (replace your .hex path, and download stm32flash,see Require libs )  
+sudo stm32flash -w /usr/src/MMDVM/bin/mmdvm.hex -v /dev/ttyUSB0  
+  
+Require libs  
+https://github.com/N4IRS/MMDVM-Install/blob/master/STM32-DVM/required-libs.sh  
+
+## Flash use ST-LINK
+
+
