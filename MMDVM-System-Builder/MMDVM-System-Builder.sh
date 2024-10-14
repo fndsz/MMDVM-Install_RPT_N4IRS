@@ -37,7 +37,7 @@ git clone https://github.com/juribeparada/MMDVM_CM.git
 git clone https://github.com/juribeparada/MMDVM_HS.git
 
 cd /srv/Repositories/DG9VH
-git clone https://github.com/dg9vh/MMDVMHost-Dashboard.git
+git clone https://github.com/fndsz/MMDVMHost-Dashboard.git
 
 ## cd /srv/Repositories/DVSwitch
 
@@ -46,7 +46,7 @@ git clone https://github.com/g4klx/DMRGateway.git
 git clone https://github.com/g4klx/P25Clients.git
 git clone https://github.com/g4klx/YSFClients.git
 git clone https://github.com/g4klx/NXDNClients.git
-git clone https://github.com/g4klx/MMDVMHost.git
+git clone https://github.com/fndsz/MMDVMHost.git
 git clone https://github.com/g4klx/MMDVMCal.git
 git clone https://github.com/g4klx/MMDVM.git
 
@@ -219,7 +219,7 @@ apt-get install lighttpd -y
 # Need to add test for Stretch vs Jessie
 # apt-get install php7.0-common -y
 # apt-get install php -y
-apt-get install php7.0-cgi -y
+apt-get install php7.4-cgi -y
 
 chown -R www-data:www-data /var/www/html
 chmod -R 775 /var/www/html
