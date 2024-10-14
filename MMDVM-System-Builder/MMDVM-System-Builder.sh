@@ -22,6 +22,7 @@ apt-get install make -y
 # apt-get install python-pip -y # Where is this used?
 apt-get install gdb-arm-none-eabi -y
 apt-get install libusb-1.0 -y
+apt-get install libsamplerate0-dev
 
 # For Armbian Need to check this !
 # apt-get install libstdc++-arm-none-eabi-newlib -y
