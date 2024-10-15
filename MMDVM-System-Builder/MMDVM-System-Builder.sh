@@ -25,7 +25,7 @@ apt-get install libusb-1.0 -y
 apt-get install libsamplerate0-dev
 
 # For Armbian Need to check this !
-# apt-get install libstdc++-arm-none-eabi-newlib -y
+apt-get install libstdc++-arm-none-eabi-newlib -y
 
 cp -rf ./Directories/* /
 
