@@ -19,7 +19,7 @@ apt-get install g++ -y
 apt-get install make -y
 
 # For MMDVM firmware
-# apt-get install python-pip -y # Where is this used?
+apt-get install python3-pip -y # Where is this used?
 apt-get install gdb-arm-none-eabi -y
 apt-get install libusb-1.0 -y
 apt-get install libsamplerate0-dev
