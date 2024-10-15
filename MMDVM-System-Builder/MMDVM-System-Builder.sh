@@ -32,6 +32,14 @@ cp -rf ./Directories/* /
 
 # Clone the source code for the programs we want to install
 # The directories were installed from above
+cd ~
+git clone https://github.com/fndsz/MMDVM-Install_RPT_N4IRS.git
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/etc/* /etc
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/lib/* /lib
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/opt/* /opt
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/srv/* /srv
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/usr/* /usr
+sudo cp -rf ~/MMDVM-Install_RPT_N4IRS/MMDVM-System-Builder/Directories/var/* /var
 
 cd /srv/Repositories/CA6JAU
 git clone https://github.com/juribeparada/MMDVM_CM.git
