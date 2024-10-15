@@ -27,7 +27,7 @@ apt-get install libsamplerate0-dev
 # For Armbian Need to check this !
 apt-get install libstdc++-arm-none-eabi-newlib -y
 
-cp -rf ./Directories/* /
+# cp -rf ./Directories/* /
 
 
 # Clone the source code for the programs we want to install
