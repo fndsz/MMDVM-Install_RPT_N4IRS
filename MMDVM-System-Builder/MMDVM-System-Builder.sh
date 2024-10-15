@@ -241,3 +241,16 @@ mv /var/www/html/index.lighttpd.html /var/www/html/index.lighttpd.html.old
 systemctl restart lighttpd
 
 # Add DVSwitch programs via apt-get install
+
+systemctl start nxdngateway.service
+systemctl start nxdnparrot.service
+systemctl start p25gateway.service
+systemctl start p25parrot.service
+systemctl start ysf2dmr.service
+systemctl start ysf2nxdn.service
+systemctl start ysf2p25.service
+systemctl start ysfgateway.service
+systemctl start ysfparrot.service
+systemctl start mmdvmhost.service
+
+
